@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Menu Indicator using CSS & Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- https://fontawesome.com/v4.7.0/icons/ -->
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+            <li class="list active" data-color = "#f53b57">
+                <a href="#">
+                    <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                    <span class="title">Домой</span>
+                </a>
+            </li>
+            <li class="list" data-color = "#3c40c6">
+                <a href="#">
+                    <span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                    <span class="title">Пользователь</span>
+                </a>
+            </li>
+            <li class="list" data-color = "#05c46b">
+                <a href="#">
+                    <span class="icon"><i class="fa fa-comment" aria-hidden="true"></i></span>
+                    <span class="title">Сообщения</span>
+                </a>
+            </li>
+            <li class="list" data-color = "#0fbcf9">
+                <a href="#">
+                    <span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
+                    <span class="title">Помощь</span>
+                </a>
+            </li>
+            <li class="list" data-color = "#ffa801">
+                <a href="#">
+                    <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+                    <span class="title">Настройки</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
